@@ -1,0 +1,5 @@
+package customException;
+
+public class benimException extends Exception {
+
+}

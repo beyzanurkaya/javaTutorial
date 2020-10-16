@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/beyzanurkaya/Desktop/programming/java/hata ve istisnalar/.metadata/.plugins/org.eclipse.jdt.core
+2492987967.index
+256413550.index
+101316800.index

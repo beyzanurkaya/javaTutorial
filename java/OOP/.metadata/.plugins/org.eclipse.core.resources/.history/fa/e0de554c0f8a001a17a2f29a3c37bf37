@@ -1,0 +1,14 @@
+package Interface;
+
+public class CustomerManager {
+	
+	private ICustomer customerManager;
+	
+	public void customerManager(ICustomer cm) {
+		this.customerManager = cm;
+	}
+	
+	public void add() {
+		customerManager.add();
+	}
+}

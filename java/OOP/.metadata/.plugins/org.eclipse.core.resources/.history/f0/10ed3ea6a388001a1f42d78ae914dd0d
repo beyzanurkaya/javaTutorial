@@ -1,0 +1,10 @@
+package Encapsulation;
+
+public class Product {
+	
+	int id, stok;
+	String isim, ozlk;
+	double fiyat;
+	
+
+}

@@ -1,0 +1,14 @@
+package classYapisi;
+
+public class classYapisi {
+	
+	public static void main(String[] args) {
+		
+		CustomerManager c = new CustomerManager();
+		c.Add();
+		c.Remove();
+		c.Update();
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package Encapsulation;
+
+public class fieldAttribute {
+
+	public static void main(String[] args) {
+		
+		Product p = new Product();
+		p.setId(1);
+		p.setIsim("Laptop");
+		p.setOzlk("Apple");
+		p.setFiyat(5000);
+		p.setStok(7);
+		
+		System.out.println(p.getId());
+		System.out.println(p.getIsim());
+		System.out.println(p.getOzlk());
+		System.out.println(p.getFiyat());
+		System.out.println(p.getStok());
+		
+		ProductManager pm = new ProductManager();
+		pm.Add(p);
+		
+
+	}
+
+}

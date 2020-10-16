@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/beyzanurkaya/Desktop/programming/java/metotlar/.metadata/.plugins/org.eclipse.jdt.core
+1912106712.index
+2854441949.index
+1023085968.index

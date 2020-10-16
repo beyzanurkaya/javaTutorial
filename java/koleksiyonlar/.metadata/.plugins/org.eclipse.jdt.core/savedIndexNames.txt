@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/Users/beyzanurkaya/Desktop/programming/java/koleksiyonlar/.metadata/.plugins/org.eclipse.jdt.core
+717488468.index
+3623853129.index
+1905402968.index
+144542573.index

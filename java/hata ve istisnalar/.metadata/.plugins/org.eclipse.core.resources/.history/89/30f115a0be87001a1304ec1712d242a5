@@ -1,0 +1,35 @@
+
+public class Throw {
+
+//hata firlatma
+	
+	private double balance;
+	
+	public void deposit(double amount) {
+		setBalance(getBalance() + amount);
+	}
+	public void wirhDraw(double amount) {
+		setBalance(getBalance() - amount);
+	}
+	private double getBalance() {
+		return balance;
+	}
+	private void setBalance(double balance) {
+		this.balance = balance;
+	}
+	
+	public static void main(String[] args) {
+		
+		Throw t = new Throw();
+		System.out.println("Hesap: " + t.getBalance());
+		t.deposit(100);
+		System.out.println("Hesap: " + t.getBalance());
+		t.wirhDraw(20);
+		System.out.println("Hesap: " + t.getBalance());
+		t.wirhDraw(90);
+		System.out.println("Hesap: " + t.getBalance());
+
+	}
+	
+
+}

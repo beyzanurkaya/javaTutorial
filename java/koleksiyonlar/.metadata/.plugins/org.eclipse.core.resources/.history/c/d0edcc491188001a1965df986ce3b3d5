@@ -1,0 +1,19 @@
+package arrayList;
+
+import java.util.ArrayList;
+
+public class arrayList {
+
+	public static void main(String[] args) {
+		
+		ArrayList sayilar = new ArrayList();
+		System.out.println(sayilar.size());
+		sayilar.add(1);
+		sayilar.add(3);
+		System.out.println(sayilar.size());
+		sayilar.add("beyza");
+		System.out.println(sayilar.size());
+		System.out.println(sayilar.get(2));
+	}
+
+}

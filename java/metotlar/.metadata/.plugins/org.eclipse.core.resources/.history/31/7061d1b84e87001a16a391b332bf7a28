@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Metotlar {
+	
+	void kisi() {
+		System.out.print("İsminizi giriniz: ");
+		Scanner scan = new Scanner(System.in);
+		String x = scan.next();
+		
+		System.out.println("İsminiz: " + x);
+	}
+	
+	static void birey() {
+		System.out.print("İsminizi giriniz: ");
+		Scanner scan = new Scanner(System.in);
+		String y = scan.next();
+		
+		System.out.println("İsminiz: " + y);
+	}
+
+	public static void main(String[] args) {
+		
+		birey();
+		Metotlar k = new Metotlar();
+		k.kisi();
+	}
+
+}

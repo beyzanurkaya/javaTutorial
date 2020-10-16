@@ -1,0 +1,14 @@
+package AbstractClass;
+
+public abstract class GameCalculator {
+	
+	//Tek tek overriding de edilebilirdi. 
+	public abstract void hesapla(); //bu metotun defaultu yok. Her class icin ayri yazilacak. Metotun bodysi yazilmaz. 
+	public void topla() {
+		
+	}
+	public final void gameOver() {
+		System.out.println("Oyun bitti.");
+	}
+	
+}

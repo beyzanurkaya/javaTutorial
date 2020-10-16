@@ -1,0 +1,25 @@
+package staticKavrami;
+
+public class ProductManager {
+	
+	/*
+	public void add(Product p) {
+		ProductValidator valid = new ProductValidator();
+		
+		if(valid.isValid(p)) {
+			System.out.println("Eklendi.");
+		}else {
+			System.out.println("Urun bilgileri gecersiz.");
+		}
+	}
+	*/
+	public void add(Product p) {
+		
+		
+		if(ProductValidator.isValid(p)) {
+			System.out.println("Eklendi.");
+		}else {
+			System.out.println("Urun bilgileri gecersiz.");
+		}
+	}
+}

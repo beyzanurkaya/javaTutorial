@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Metotlar {
+	
+	static void birey() {
+		System.out.println("İsminizi giriniz: ");
+		Scanner scan = new Scanner(System.in);
+		String x = scan.next();
+	}
+
+	public static void main(String[] args) {
+		
+		birey();
+	}
+
+}

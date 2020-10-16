@@ -1,0 +1,25 @@
+package classYapisi;
+
+public class classYapisi {
+	
+	public static void main(String[] args) {
+		
+		//referans tiplidir.
+		CustomerManager c = new CustomerManager();
+		CustomerManager c2 = new CustomerManager();
+		c = c2; //cnin referans numarasi artık c2nin referans numarasina esit. 
+		
+		c.Add();
+		c.Remove();
+		c.Update();
+		
+		int s = 10;
+		int s2 = 20;
+		s2 = s;
+		s = 30;
+		System.out.println(s + " -- " + s2);
+	
+		
+	}
+
+}

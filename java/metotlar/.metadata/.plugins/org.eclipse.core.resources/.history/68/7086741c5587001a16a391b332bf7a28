@@ -1,0 +1,29 @@
+package recursiveMetot;
+
+import java.util.Scanner;
+
+public class recursiveMetot {
+	
+	private static Scanner scan;
+	
+	static int fakt(int n) {
+		int i, f = 1;
+		for(i = n; i>=1; i--) {
+			f = f*i;
+		}
+		return f;
+	}
+	public static void main(String[] args) {
+		
+		int n;
+		scan = new Scanner(System.in);
+		System.out.print("Bir sayi giriniz: ");
+		n = scan.nextInt();
+		
+		System.out.print(n + "! = " + fakt(n));
+		
+		
+
+	}
+
+}

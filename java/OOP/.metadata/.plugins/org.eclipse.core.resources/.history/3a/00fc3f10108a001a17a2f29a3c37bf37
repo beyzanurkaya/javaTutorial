@@ -1,0 +1,11 @@
+package Interface;
+
+public class OracleCustomer implements ICustomer {
+
+	@Override
+	public void add() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

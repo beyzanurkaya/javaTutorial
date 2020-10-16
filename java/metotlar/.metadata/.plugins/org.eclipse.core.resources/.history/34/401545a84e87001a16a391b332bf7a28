@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Metotlar {
+	
+	static void birey() {
+		System.out.print("İsminizi giriniz: ");
+		Scanner scan = new Scanner(System.in);
+		String x = scan.next();
+		
+		System.out.println("İsminiz: " + x);
+	}
+
+	public static void main(String[] args) {
+		
+		birey();
+	}
+
+}

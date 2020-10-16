@@ -1,0 +1,20 @@
+package Encapsulation;
+
+public class fieldAttribute {
+
+	public static void main(String[] args) {
+		
+		Product p = new Product();
+		p.setId(1);
+		p.setIsim("Laptop");
+		p.setOzlk("Apple");
+		p.setFiyat(5000);
+		p.setStok(7);
+		
+		ProductManager pm = new ProductManager();
+		pm.Add(p);
+		
+
+	}
+
+}

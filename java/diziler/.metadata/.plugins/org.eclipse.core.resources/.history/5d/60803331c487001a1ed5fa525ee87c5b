@@ -1,0 +1,17 @@
+package diziler;
+
+public class diziler {
+
+	public static void main(String[] args) {
+		
+		String [] ogrenciler = new String[3];
+		ogrenciler[0] = "Beyza Nur";
+		ogrenciler[1] = "Mert";
+		ogrenciler[2] = "Ahmet";
+		
+		for(int i=0; i<3; i++) {
+			System.out.println(ogrenciler[i]);
+		}
+	}
+
+}

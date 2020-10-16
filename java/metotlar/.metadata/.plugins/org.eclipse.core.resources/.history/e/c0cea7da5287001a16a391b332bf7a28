@@ -1,0 +1,23 @@
+package referansMetot;
+
+import java.util.Scanner;
+
+public class referansMetot {
+	
+	private static Scanner gir;
+	
+	static double cevir(double n) {
+		return((n-32)/1.8);
+	}
+	public static void main(String[] args) {
+		
+		double F, C;
+		System.out.print("Fahrenayt degeri: ");
+		gir = new Scanner(System.in);
+		F = gir.nextDouble();
+		C = cevir(F);
+		System.out.println(C + " derecedir.");
+
+	}
+
+}

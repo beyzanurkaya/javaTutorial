@@ -1,0 +1,10 @@
+package Interface;
+
+public class MySqlCustomer implements ICustomer {
+	
+	@Override
+	public void add() {
+		System.out.println("MySql eklendi.");
+		
+	}
+}

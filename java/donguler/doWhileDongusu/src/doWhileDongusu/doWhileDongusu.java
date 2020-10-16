@@ -1,0 +1,32 @@
+package doWhileDongusu;
+
+public class doWhileDongusu {
+
+	public static void main(String[] args) {
+		
+		int i = 0;
+		
+		do {
+			System.out.print(i + " ");
+			i++;
+		}while(i <= 20);
+		
+		System.out.println();
+		
+		int j = 1;
+		do {
+			System.out.print(j + " ");
+			j+=2;
+		}while(j <= 20);
+		
+		System.out.println();
+		
+		int t = 0;
+		do {
+			System.out.print(t + " ");
+			t+=2;
+		}while(t <= 20);  
+		
+	}
+
+}

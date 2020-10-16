@@ -1,0 +1,12 @@
+package overriding;
+
+public class Overriding {
+
+	public static void main(String[] args) {
+
+		MemurKrediManager o = new MemurKrediManager();
+		System.out.println(MemurKrediManager.hesapla(1000));
+		
+	}
+
+}

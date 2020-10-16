@@ -1,0 +1,30 @@
+
+public class Throw {
+
+//hata firlatma
+	
+	private static double balance;
+	
+	public static void deposit(double amount) {
+		balance += amount;
+	}
+	public static void wirhDraw(double amount) {
+		balance -= amount;
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+		System.out.println("Hesap: " );
+		deposit(100);
+		System.out.println("Hesap: " );
+		wirhDraw(20);
+		System.out.println("Hesap: " );
+		wirhDraw(90);
+		System.out.println("Hesap: " );
+
+	}
+	
+
+}

@@ -1,0 +1,46 @@
+package Encapsulation;
+
+public class Product {
+	
+	//default olarak public tanimlanir.
+	private int id, stok;
+	private String isim, ozlk;
+	private double fiyat;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id; //this classin icindeki degiskeni isaret eder
+	}
+	
+	public int getStok() {
+		return stok;
+	}
+	public void setStok(int stok) {
+		this.stok = stok;
+	}
+	
+	public String getIsim() {
+		return isim;
+	}
+	public void setIsim(String isim) {
+		this.isim = isim;
+	}
+	
+	public String getOzlk() {
+		return ozlk;
+	}
+	public void setOzlk(String ozlk) {
+		this.ozlk = ozlk;
+	}
+	
+	public double getFiyat() {
+		return fiyat;
+	}
+	public void setFiyat(double fiyat) {
+		this.fiyat = fiyat;
+	}
+	
+	
+}

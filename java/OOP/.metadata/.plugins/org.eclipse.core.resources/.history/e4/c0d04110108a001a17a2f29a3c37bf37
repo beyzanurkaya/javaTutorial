@@ -1,0 +1,10 @@
+package Interface;
+
+public class OracleCustomerManager implements ICustomer {
+
+	@Override
+	public void add() {
+		System.out.println("Oracle eklendi.");
+	}
+	
+}
